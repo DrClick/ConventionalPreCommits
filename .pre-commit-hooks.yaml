@@ -1,0 +1,6 @@
+-   id: conventional-pre-commits
+    name: Conentional Pre-Commits
+    description: This hook enforces commit messages follow the Convential Commits standard. https://www.conventionalcommits.org/en/v1.0.0/#specification
+    entry: python enforcer.py
+    language: python
+    stages: [commit-msg]
